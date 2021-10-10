@@ -1,3 +1,11 @@
+//T(n)=O(n)
+//At first it may seem like a while loop is running inside for loop, making the time complexity O(n^2).
+//But this is not the case, the time complexity of this is O(n) only.
+//Because the while loop inside for loop doesn't run n times. As we are pushing and popping each element of arr[] only once inside the stack.
+
+//S(n)=O(n)
+//An array of n size is used, making the space complexity O(n).
+Because the while loop inside for loop doesn't run n times. As we are pushing and popping each element of arr[] only once inside the stack.
 import java.io.*;
 import java.util.*;
 
